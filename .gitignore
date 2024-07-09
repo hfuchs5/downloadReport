@@ -41,3 +41,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.Rproj.user
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

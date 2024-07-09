@@ -21,11 +21,11 @@
 golem::fill_desc(
   pkg_name = "downloadReport", # The Name of the package containing the App
   pkg_title = "AP Partner Content Download Dashboard", # The Title of the package containing the App
-  pkg_description = "This package creates a production-ready dashboard for partners to view Download Reports and interact with them.", # The Description of the package containing the App
+  pkg_description = "A application for partners to view Download Reports and interact with them. Analysis includes trends, maps, and descriptive statistics on downloads and uploads.", # The Description of the package containing the App
   author_first_name = "Hannah", # Your First Name
   author_last_name = "Fuchs", # Your Last Name
   author_email = "hfuchs@ap.org", # Your Email
-  repo_url = NULL, # The URL of the GitHub Repo (optional),
+  repo_url = "https://github.com/AP-analytics/downloadReport", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
 
@@ -37,12 +37,12 @@ golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_mit_license("Golem User") # You can set another license here
+usethis::use_mit_license("Hannah Fuchs") # You can set another license here
 usethis::use_readme_rmd(open = FALSE)
 devtools::build_readme()
 # Note that `contact` is required since usethis version 2.1.5
 # If your {usethis} version is older, you can remove that param
-usethis::use_code_of_conduct(contact = "Golem User")
+usethis::use_code_of_conduct(contact = "Hannah Fuchs")
 usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
